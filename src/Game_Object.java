@@ -1,4 +1,8 @@
 import java.awt.*;
+import javax.swing.*;
+
+import static java.awt.SystemColor.window;
+
 public class Game_Object {
 
     // member data
@@ -26,7 +30,6 @@ public class Game_Object {
             y -=3;
         }
     }
-
 
     public void paint(Graphics g){
         g.setColor(c);
