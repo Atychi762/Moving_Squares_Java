@@ -27,6 +27,7 @@ public class Game_Object {
         }
     }
 
+
     public void paint(Graphics g){
         g.setColor(c);
         g.fillRect((int)x, (int)y, 40, 40);
