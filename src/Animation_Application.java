@@ -33,7 +33,7 @@ public class Animation_Application extends JFrame implements Runnable{
             }
             repaint();
             try{
-                Thread.Sleep(20);
+                Thread.sleep(20);
             } catch (InterruptedException e){
                 e.printStackTrace();
             }
